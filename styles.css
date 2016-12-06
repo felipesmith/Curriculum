@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	line-height: 2em;
+  background-color:#A6DEEE;
+  /*background-color:#3fada8;
+  background-color:#A7DBD8;
+  background-color:#3088ff;*/
+}
+
+.header{
+  height: 82px;
+  width: 100%;
+  background: rgb(255,94,58); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(255,94,58,1) 0%, rgba(255,42,104,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(255,94,58,1) 0%,rgba(255,42,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(255,94,58,1) 0%,rgba(255,42,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e3a', endColorstr='#ff2a68',GradientType=0 ); /* IE6-9 */
+}
+
+.header_menu .logo{
+  /*display: block;*/
+  /*flex: 0;*/
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+
+.header .header_menu{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin:0;
+  max-height: 82px;
+}
+.header_items{
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 3em;
+  align-self: center;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.header_box{
+  display: flex;
+  justify-content: space-around;
+  flex-basis: 60%;
+}
+
+.header_logo{
+  flex-basis: 40%;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+
+}
