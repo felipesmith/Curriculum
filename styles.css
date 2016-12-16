@@ -8,9 +8,9 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 2em;
-  /*background-color:#A6DEEE;*/
+  background-color:#A6DEEE;
   /*background-color: #0b2333;*/
-      background-color: #FDBB97;
+      /*background-color: #FDBB97;*/
   /*background-color:#A7DBD8;*/
   /*background-color:#3088ff;*/
 }
@@ -29,14 +29,14 @@ h1{
 
 a{
   outline-color: none;
-  color: black;
+  color: #fc5759;
   text-decoration: none;
 }
 
 .content div {
   /*color: #fc5759;*/
-          color: #113856;
-          padding: 100px;
+  color: #113856;
+  padding: 10px;
 }
 
 .header{
@@ -44,11 +44,12 @@ a{
   width: 100%;
   position: fixed;
   top: 0;
-  background: rgb(255,94,58); /* Old browsers */
-  background: -moz-linear-gradient(top,  rgba(255,94,58,1) 0%, rgba(255,42,104,1) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  rgba(255,94,58,1) 0%,rgba(255,42,104,1) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  rgba(255,94,58,1) 0%,rgba(255,42,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e3a', endColorstr='#ff2a68',GradientType=0 ); /* IE6-9 */
+  background-color:#113856;
+  /*background: rgb(255,94,58); /* Old browsers */*/
+  /*background: -moz-linear-gradient(top,  rgba(255,94,58,1) 0%, rgba(255,42,104,1) 100%); /* FF3.6-15 */*/
+  /*background: -webkit-linear-gradient(top,  rgba(255,94,58,1) 0%,rgba(255,42,104,1) 100%); /* Chrome10-25,Safari5.1-6 */*/
+  /*background: linear-gradient(to bottom,  rgba(255,94,58,1) 0%,rgba(255,42,104,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */*/
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5e3a', endColorstr='#ff2a68',GradientType=0 ); /* IE6-9 */*/
 }
 
 .header_menu .logo{
@@ -99,7 +100,7 @@ a{
 }
 
 .item_content{
-  margin-bottom: 5000px;
+  margin-bottom: 100px;
 }
 
 /* Underline From Center */
@@ -112,7 +113,7 @@ a{
   position: relative;
   overflow: hidden;
 
-  color: #0b2333;
+  color:#fc5759;
 }
 .hvr-underline-from-center:before {
   content: "";
@@ -122,7 +123,7 @@ a{
   right: 50%;
   bottom: 0;
   /*background: #2098D1;*/
-  background: #0b2333;
+  background: #fc5759;
   height: 4px;
   -webkit-transition-property: left, right;
   transition-property: left, right;
