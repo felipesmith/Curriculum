@@ -8,16 +8,33 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	line-height: 2em;
-  background-color:#A6DEEE;
+  background-color: #A6DEEE;
+  /*background-color:#A6DEEE;*/
+  background-image: url("background.png");
+  /*background-image: url("background2.png");*/
+  text-align: justify;
   /*background-color: #0b2333;*/
       /*background-color: #FDBB97;*/
   /*background-color:#A7DBD8;*/
   /*background-color:#3088ff;*/
 }
 
+@font-face {
+font-family: 'Ailerons';
+font-style: normal;
+font-weight: normal;
+src: local("Ailerons-Typeface.otf") format("opentype");
+}
+
 h1{
   margin:0 ;
   color: #fc5759;
+  line-height: 4rem;
+  /*font-family: 'Ailerons',Helvetica, Arial, sans-serif;*/
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 10%;
 }
 
 .content{
@@ -25,6 +42,12 @@ h1{
   margin: auto;
   padding-top: 82px;
   height: 100%;
+  /*font-family: 'Ailerons',Helvetica, Arial, sans-serif;*/
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  /*opacity: 0.9;*/
+
 }
 
 a{
@@ -35,8 +58,10 @@ a{
 
 .content div {
   /*color: #fc5759;*/
-  color: #113856;
+  color: #fc5759;
   padding: 10px;
+  text-align: center;
+  margin: 75px auto;
 }
 
 .header{
@@ -72,6 +97,7 @@ a{
   max-height: 82px;
 }
 .header_items{
+  /*font-family: 'Ailerons',Helvetica, Arial, sans-serif;*/
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 1em;
@@ -100,7 +126,15 @@ a{
 }
 
 .item_content{
-  margin-bottom: 100px;
+  margin:50px;
+  min-width: 700px;
+  min-height: 700px;
+  max-width: 700px;
+  max-height: 700px;
+  border-radius: 100%;
+  background-color:#113856;
+  color: #fc5759;
+  text-align: center;
 }
 
 /* Underline From Center */
