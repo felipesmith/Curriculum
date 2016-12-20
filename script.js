@@ -14,7 +14,7 @@ $(document).ready(function(){
       var hash = this.hash.substr(1);
       console.log(hash);
       $("body,html").animate({
-        scrollTop : $('#'+hash).offset().top -100
+        scrollTop : $('#'+hash).offset().top -155
       },2000);
     }
   });

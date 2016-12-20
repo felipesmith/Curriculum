@@ -34,7 +34,7 @@ h1{
   font-family: Helvetica, Arial, sans-serif;
   font-size: 2.5em;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .content{
@@ -48,6 +48,12 @@ h1{
   text-align: center;
   /*opacity: 0.9;*/
 
+}
+
+#item_content_text{
+  max-width:80%;
+  max-height: 450px;
+  margin:auto;
 }
 
 a{
